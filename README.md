@@ -1,7 +1,7 @@
 # verbose_login
 Yeh code ek Python script hai jo email enumeration ke liye use hoti hai. Yeh script TryHackMe (THM) ke verbose_login module par test karne ke liye banayi gayi hai.
 
-Code Explanation (Hinglish)
+Code Explanation 
 check_email(email):
 
 Yeh function email check karta hai aur request send karta hai login API par.
@@ -19,8 +19,8 @@ enumerate_emails(email_file) call karta hai aur valid emails print karta hai.
 
 How to Use 
 Save this code as script.py.
-Run the script terminal me:
-  # python3 script.py emails.txt
+# Run the script terminal me:
+         python3 script.py emails.txt
 (yahan emails.txt ek file hai jo email list contain karti hai.)
 # Output milega:
           [INVALID] test@example.com
